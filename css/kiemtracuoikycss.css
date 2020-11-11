@@ -1,0 +1,117 @@
+
+.Image { width: 100%;
+margin-bottom: 20px; }
+.navbar-nav a:hover {  background-color: #2ec7c769; }
+.row h3 {
+    font-size: 15px;
+
+}
+.row.nav-item {
+    border-bottom: 1px solid green; margin-top: 20px;
+}
+
+.left { float: left!important; }
+.clear { clear: both; }
+li.navbar {
+    padding-right: 70px;
+}
+nav.navbar.navbar-expand-sm {
+   
+        background: linear-gradient(360deg, #d08b06, white)!important;
+}
+
+.col-sm-8 { background:url(bg-index2.jpg) no-repeat center;
+background-size: cover!important;
+  position: fixed; }
+    .col-sm-8 h1, p { width: 100%; }
+    .col-sm-8 p {text-align: justify;}
+ .container {width: 100%; margin: 0 0 0 0px; }
+ 
+
+.jumbotron.nav.text-center {
+    padding: 0;
+    background-color: #c65c3f;
+}
+a {color: #042344; }
+button.w3-button.w3-black.w3-display-left {
+    opacity: 50%;
+}
+button.w3-button.w3-black.w3-display-right {
+    opacity: 50%;
+}
+.navbar-toggler {
+   
+    background-color: #17a2b8;}
+
+a {
+    color: #28a745!important;}
+    .text { text-align: justify }
+.mySlides {display: none;}
+
+
+/* Slideshow */
+.slideshow {
+  max-width: 95%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  /*transition: background-color 5s   ease;*/
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.70} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.70} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+
+
+.button.text-center a:hover { background-color: green;
+}
+
+
+.border { margin-bottom: 10px; }

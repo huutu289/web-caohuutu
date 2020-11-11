@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/kiemtracuoikycss.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>CAo huu tu aboutus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="trap/bootstrap.min.css">
+  <script src="trap/jquery.min.js"></script>
+  <script src="trap/popper.min.js"></script>
+  <script src="trap/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+       height: 200px;
+  
+        background-image: linear-gradient(180deg, #c07474, #28a745);
+  }
+  </style>
+</head>
+
+
+<body>
+<div class="slideshow">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/Facade-1.jpg" style="width:100%" height="500px">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/tour-desk-service.jpg" style="width:100%" height="500px">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/anh9.jpg" style="width:100%" height="500px">
+
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 10 seconds
+}
+</script>
+
+
+
+<nav class="navbar navbar-expand-sm">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="background-color: rgba(0,123,255,.5)">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">ABout Us</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="Accommadation.html">Accommadation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="special-offer.html">Special-offer</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="service.html">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contract.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><img src="img/VN.png"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><img src="img/english.png"></a>
+      </li>
+
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top: 20px;
+margin-bottom: 20px;">
+
+<p class="text col-md-6 left">
+   -Just a short walk from the ancient city of Hoi An, VaiA Boutique Hotel Hoi An caters to demanding travellers in pursuit of cosy and comfortable accommodation for the duration of their stay in Hoi An.<br>
+Its bright, contemporary design and decoration creates a welcoming and relaxing environment for VaiA Boutique Hotel Hoi An guests, and coupled with the personal service assured by the hotel staff, will help to make your stay a memorable experience.<br>
+
+Eighteen well-appointed rooms ranging from Standard, Deluxe to Family provide a comfortable home base from which to explore the ancient city on its doorstep.<br>
+
+Breakfast and light refreshments are served at the Little Terrace Café in the lobby. Free tea and coffee is available to guests throughout the day at the Little Terrace Café.<br>
+
+Free wifi is available throughout VaiA Boutique Hotel Hoi An, and free Internet access is provided for guests in the Lobby.<br>
+
+Other services including airport/train transport, tour desk, bicycle hire are all available at the Reception
+
+</p>
+<img  class="img col-md-6 left" src="img/MG_1439.jpg">
+</div>
+
+<div class="jumbotron nav text-center col-md-12" style="margin-bottom:0">
+   <p class="col-md-9 left" style="width: 100%;">Vaia Boutique Hotel Hoian - # 489, Cua Dai Road – Hoi An City, Vietnam | info@vaiahotel.com - (+84) 2353 916 499</p>
+
+    <div class="   col-md-auto">
+       <div class="col-sm-auto left" style="padding-right: 20px;">
+          <a href="#"><img class="navbar-toggler-icon text-center" src="img/fb.png"></a>
+        </div>
+        <div class="col-sm-auto left" style="padding-right: 20px;">
+           <a href="#"><img class="navbar-toggler-icon text-center" src="img/g.png"></a>
+        </div> 
+        <div class="col-sm-auto left" style="padding-right: 20px;">
+           <a href="#"><img class="navbar-toggler-icon text-center" src="img/tw.png"></a>
+        </div> 
+        <div class="col-sm-auto left" style="padding-right: 20px;">
+          <a href="#"><img class="navbar-toggler-icon text-center" src="img/tripadvisor.png"></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

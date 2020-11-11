@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/kiemtracuoikycss.css">
+  <title>caohuutu home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./trap/bootstrap.min.css">
+  <script src=".trap/jquery.min.js"></script>
+  <script src=".trap/popper.min.js"></script>
+  <script src=".trap/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+       height: 200px;
+  
+        background-image: linear-gradient(180deg, #c07474, #28a745);
+  }
+  </style>
+</head>
+
+<body>
+
+
+
+<div class="slideshow">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/Facade-1.jpg" style="width:100%" height="500px">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/tour-desk-service.jpg" style="width:100%" height="500px">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/anh9.jpg" style="width:100%" height="500px">
+
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 10 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-sm ">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="background-color: rgba(0,123,255,.5)">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">ABout Us</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="Accommadation.html">Accommadation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="special-offer.html">Special-offer</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="service.html">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contract.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><img src="img/VN.png"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><img src="img/english.png"></a>
+      </li>
+
+    </ul>
+  </div>  
+</nav>
+
+<div class="container col-sm-auto" style="margin-top:0px">
+
+   <div class="row nav-item col-sm-12" style=" margin-left: 0px;
+    margin-right: 0px;">   
+            <div class="col-sm-2 text-center">
+              <div > <a href="#"> <img src="img/icon_bicycle.png"></a></div>  
+              
+              <h3>BICYCLE HIRE</h3>     
+            </div>
+            <div class="col-sm-2 text-center">
+              <div> <a href="#"><img src="img/icon_discount.png"></a> </div> 
+              <h3 >DISCOUNT ROOM RATE</h3>     
+            </div>
+            <div class="col-sm-2 text-center">
+              <div> <a href="#"><img src="img/icon_eat.png"></a> </div> 
+              <h3 class="vaia-icon-title">EAT & DRINK</h3>      
+            </div>
+            <div class="col-sm-2 text-center">
+              <div> <a href="#"> <img src="img/icon_tour.png"></a></div> 
+              <h3>TOUR DESK</h3>      
+            </div>
+            
+            <div class="col-sm-2 text-center">
+              <div > 
+                <a href="#"> <img src="img/icon_transport.png"></a>
+              </div>  
+              <h3 >TRANSPORTATION</h3>     
+            </div>
+            <div class="col-md-2 col-lg-2 col-xs-2 text-center">
+              <div > <a href="#"> <img src="img/icon_yaly.png"></a></div> 
+              <h3 >YALY COUTURE</h3>     
+            </div>
+
+      </div>
+      <div class="clear"></div>
+          
+
+
+
+  <div class="row">
+        <div class="col-sm-4">
+     
+      <div class="fakeimg text-center"> <h1 style="    font-style: oblique;
+    font-family: ui-sans-serif;
+    padding-top: 40px;"> Designed by <br> Cao Hữu Tư</h1></div>
+      <p></p>
+
+
+      <h1 class="text-center" style="color: #d39e00">RESERVATION</h1>
+      <ul class="nav nav-pills flex-column text-center">
+        
+        <li class="nav-item">
+          <input class="nav-link" type="date" name="" style="width: 100%; background: #f5e5de">
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <input class="Check" type="submit" name="ch" value="Check Availability" style="background: #f7590e"></a> 
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">WELCOME</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+
+
+
+
+    <div class=" col-sm-8  ">
+    <h2 style="text-align: 30px;"> Welcome to Vaia Boutique Hotel Hoi An</h2> 
+                   <p style="max-width: 50%;">- Just a short walk from the ancient city of Hoi An, VaiA Boutique Hotel Hoi An caters to demanding travellers in pursuit of cosy and comfortable accommodation for the duration of their stay in Hoi An.
+                   <br>
+                             - Its bright, contemporary design and decoration creates a welcoming and relaxing environment for VaiA Boutique Hotel Hoi An guests, and coupled with the personal service assured by the hotel staff, will help to make your stay a memorable experience.
+                             Eighteen well-appointed rooms ranging from Standard, Deluxe to Family provide a comfortable home base from which to explore the ancient city on its doorstep. Breakfast and light refreshments are served at the Little Terrace Café in the lobby. Free tea and coffee is available to guests throughout the day at the Little Terrace Café. Free wifi is available throughout VaiA Boutique Hotel Hoi An, and free Internet access is provided for guests in the Lobby.<br>
+                             - Other services including airport/train transport, tour desk, bicycle hire are all available at the Reception.
+                           </p>
+
+    <div class="button text-center" style="width: 60%;">
+                 <a class="navbar-brand" href="#" style="    border: 3px solid #f6b400; 
+                 padding: 4px;border-radius: 20px;width: 150px;background-color: white;text-align: center;color: #f6b400;">Learn More</a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span>
+                 </button>
+                 <a class="navbar-brand" href="#" style="    border: 3px solid #f6b400;
+    padding: 4px;
+    border-radius: 20px;
+    width: 150px;
+    background-color: #f6b400;
+    color: white;">New Service</a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+
+     
+    </div>
+    <div class="col-sm-12 text-center">
+    <div class="col-sm-4 text-center left">
+      <img class="Image" src="img/Superior-1.jpg">
+                <a class="nav-link text-center" href="#">BYCICLE HIRE</a>
+    </div>
+      <div class="col-sm-4 left">
+     <img class="Image"  src="img/tea-coffee-service.jpg">
+              <a class="nav-link text-center" href="#">DISCOUNT ROOM<br> RATE</a>
+    </div>
+      <div class="col-sm-4 left">
+     <img class="Image" src="img/PRIVILEGES-offer4.jpg">
+                <a class="nav-link text-center" href="#">EAT & DRINK</a>
+    </div>
+  </div>
+
+
+
+
+
+  
+  </div>
+
+</div>
+
+<div class="jumbotron nav text-center col-sm-12" style="margin-bottom:0">
+   <p class="col-sm-9 left" style="width: 100%;">Vaia Boutique Hotel Hoian - # 489, Cua Dai Road – Hoi An City, Vietnam | info@vaiahotel.com - (+84) 2353 916 499</p>
+
+    <div class="   col-sm-auto">
+       <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+          <a href="#"><img class="navbar-toggler-icon text-center" src="img/fb.png"></a>
+        </div>
+        <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+           <a href="#"><img class="navbar-toggler-icon text-center" src="img/g.png"></a>
+        </div> 
+        <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+           <a href="#"><img class="navbar-toggler-icon text-center" src="img/tw.png"></a>
+        </div> 
+        <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+          <a href="#"><img class="navbar-toggler-icon text-center" src="img/tripadvisor.png"></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

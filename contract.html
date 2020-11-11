@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/kiemtracuoikycss.css">
+  <title>Cao huu tu contract</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="trap/bootstrap.min.css">
+  <script src="trap/jquery.min.js"></script>
+  <script src="trap/popper.min.js"></script>
+  <script src="trap/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="slideshow">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/Facade-1.jpg" style="width:100%" height="500px">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/tour-desk-service.jpg" style="width:100%" height="500px">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/anh9.jpg" style="width:100%" height="500px">
+
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 10 seconds
+}
+</script>
+
+
+
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">Trang Chủ</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">ABout Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Accommadation.html">Accommadation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="special-offer.html">Special-offer</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="service.html">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contract.html">Contact</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="index.html"><img src="img/VN.png"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><img src="img/english.png"></a>
+      </li>
+
+    </ul>
+  </div>  
+</nav>
+
+<div class="container col-md-12" style="margin-top:30px">
+ 
+<div id="formdkthanhvien col-md-7">
+  <div class="title col-md-7 text-center">
+    <h1>
+      Đăng Ký Thành Viên
+    </h1>
+    <div class="border">
+      
+    </div>
+  </div>
+  <div class="Image left col-md-3">
+    <div class="image text-center">
+      <img  src="img/source02.jpg" style="width: 100%;border-radius: 50%; 
+  border: 2px solid red;
+  padding: 20px;"><br> 
+      <h4>Đăng Ký Thành Viên</h4>
+
+    </div>
+  </div>
+ 
+  <div class="nav-item  left col-md-4">
+    
+      <h4 style="width: 100%; text-align: center;"> Để đăng ký thành viên bạn cần nhập tất cả các thông thin dưới đây</h4>
+    
+
+    
+      <input style="width: 100%" type="login" name="name" size="" placeholder="Tên Đăng Nhập" max-width="100%">
+     
+      <input style="width: 50%"  type="password" name="name" size="" placeholder="Nhập Mật khẩu" width="100%">
+
+    
+      <input style="width: 50%" class="left" type="password" name="name" size="" placeholder="Nhập lại mật khẩu" width="100%">
+
+  
+
+   
+       <input style="width: 100%" type="text" name="name" size="" placeholder="Họ và tên ">
+      
+       
+
+    
+      <input style="width: 100%" type="email" name="email" placeholder="Địa chỉ email">
+    
+      <input style="width: 100%" type="text" name="name" size="" placeholder="Bạn là: Giáo viên, hiệu Trưởng , học sinh ....?">
+        <input style="width: 100%" type="text" name="" value="" placeholder="Trường và Địa chỉ trường"> 
+      <input style="width: 100%" type="phone" name="" value="" placeholder="nhập số điện thoại">  
+    <div class="clear"></div>
+    
+   
+        <select  class="nav-item left"  title="" name="" placeholder= "Tỉnh/Thành Phố">
+        <option> Tỉnh/Thanh phố</option>
+        <option>Huế</option>
+        <option>Đà nẵng</option>
+        <option> Vinh</option>
+      </select>
+      <select class="nav-item left"  title="" name="" placeholder= "Tỉnh/Thành Phố">
+        <option> Quận/huyện</option>
+        <option>Huế</option>
+        <option>Đà nẵng</option>
+        <option> Vinh</option>
+      </select>
+      <select class="nav-item left" title="" name="" placeholder= "Tỉnh/Thành Phố">
+        <option>Phường /Xã</option>
+        <option>Huế</option>
+        <option>Đà nẵng</option>
+        <option> Vinh</option>
+      </select>
+   
+      <div class="clear"></div>
+      
+   
+      <input class="nav-item left" style="width: 50%" type="text" name="" value="" placeholder="Thông tin thêm"> 
+    
+      <input class="left" style="width: 50%" type="text" name="" value="" placeholder="Mã bảo mật"> 
+  
+      <p><input class=" nav-item" name="" type="radio" value="Nam">Tôi đồng ý với
+       <a href="#"> Các quy Định thành Viên</a></p>
+   
+     
+        <a class="nav-item" href="#">  <input style="width: 50%;border-radius: 20px;
+    background: yellowgreen;" class="left" type="submit" name="name" value="Thiết Lập Lại"></a>
+      
+        <a class="nav-item" href="#"><input style="width: 50%;    border-radius: 20px;
+    background: #ffc107;" class="left" type="submit" name="name" value=" Đăng ký Thành Viên"></a>
+    
+  
+   
+    <p style="padding-top: 20px;">
+      <a href="#">&#9829; Đăng nhập</a>
+      <a href="#">&#9829; Quên mật khẩu</a>
+    </p>
+    
+  </div>
+</div>
+
+<div class="map col-md-5 left" style=" padding-right: 20px;">
+  <h2 style="text-align: center;
+    margin-bottom: 35px;">Google Map</h2>
+    <iframe class="map left" style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14239.307354599134!2d107.58292157310491!3d16.457158243997604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a147ba6bdbff%3A0x2e605afab4951ad9!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEPDtG5nIG5naGnhu4dwIEh14bq_!5e0!3m2!1svi!2s!4v1603948914664!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+</div>
+
+
+
+</div>
+
+
+<div class="jumbotron nav text-center col-sm-12" style="margin-bottom:0">
+   <p class="col-sm-9 left" style="width: 100%;">Vaia Boutique Hotel Hoian - # 489, Cua Dai Road – Hoi An City, Vietnam | info@vaiahotel.com - (+84) 2353 916 499</p>
+
+    <div class="   col-sm-auto">
+       <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+          <a href="#"><img class="navbar-toggler-icon text-center" src="img/fb.png"></a>
+        </div>
+        <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+           <a href="#"><img class="navbar-toggler-icon text-center" src="img/g.png"></a>
+        </div> 
+        <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+           <a href="#"><img class="navbar-toggler-icon text-center" src="img/tw.png"></a>
+        </div> 
+        <div class="col-sm-auto col-3 left" style="padding-right: 20px;">
+          <a href="#"><img class="navbar-toggler-icon text-center" src="img/tripadvisor.png"></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
